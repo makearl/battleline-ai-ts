@@ -11,3 +11,8 @@ npm install
 ```
 npm run build
 ```
+
+## Running tests
+```
+npm run test
+```

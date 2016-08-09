@@ -9,8 +9,8 @@
     "exclude": [
         "node_modules"
     ],
-    "files": [
-        "src/index.ts",
+    "include": [
+        "src/**/*.ts",
         "typings/index.d.ts"
     ]
 }

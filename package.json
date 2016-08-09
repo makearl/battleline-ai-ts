@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "jasmine": "^2.4.1",
     "lodash": "^4.14.2",
     "tslint": "^3.14.0",
     "typescript": "^1.8.10",
@@ -16,7 +17,8 @@
     "prebuild": "npm run clean",
     "build": "npm run lint && npm run build:ts",
     "lint": "tslint \"src/**/*.ts\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "typings install",
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
   "author": "megan.k.patten@gmail.com",
   "license": "MIT"
