@@ -1,0 +1,7 @@
+{
+  "name": "battleline-ai-ts",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160723033700"
+  }
+}
